@@ -8,6 +8,7 @@ use App\Models\CandidateProfile;
 use App\Models\CompanyProfile;
 use App\Models\JobOffer;
 use App\Models\Resume;
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;

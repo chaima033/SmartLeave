@@ -3,7 +3,8 @@
 namespace App\Services;
 
 use Illuminate\Support\Facades\Http;
-use App\Exceptions\GeminiRequestException;
+use RuntimeException;
+
 class GeminiService
 {
     public function buildPayload(string $prompt, array $context = [], array $history = [], string $mode = 'candidate'): array
@@ -52,7 +53,7 @@ class GeminiService
         {
             if (! $apiKey)
             {
-                throw new GeminiRequestException('Gemini API key is missing.');
+                throw new RuntimeException('Gemini API key is missing.');
             }
 
             $payload = $this->buildPayload($prompt, $context, $history, $mode);
@@ -64,7 +65,7 @@ class GeminiService
 
             if (! $response->successful())
             {
-                throw new GeminiRequestException('Gemini request failed: ' . $response->body());
+                throw new RuntimeException('Gemini request failed: ' . $response->body());
             }
 
             $answer = data_get($response->json(), 'candidates.0.content.parts.0.text');
