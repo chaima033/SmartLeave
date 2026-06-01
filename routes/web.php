@@ -11,24 +11,31 @@ use App\Models\JobOffer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-const RESUME_ROUTE = '/resumes/{resume}';
+if (! defined('RESUME_ROUTE'))
+{
+    define('RESUME_ROUTE', '/resumes/{resume}');
+}
 
-Route::get('/', function (Request $request) {
-    if ($request->user()) {
+Route::get('/', function (Request $request)
+{
+    if ($request->user())
+    {
         return redirect()->route('dashboard');
     }
 
     return view('welcome');
 });
 
-Route::middleware('guest')->group(function (): void {
+Route::middleware('guest')->group(function (): void
+{
     Route::get('/login', [AuthController::class, 'createLogin'])->name('login');
     Route::post('/login', [AuthController::class, 'storeLogin'])->name('login.store');
     Route::get('/register', [AuthController::class, 'createRegister'])->name('register');
     Route::post('/register', [AuthController::class, 'storeRegister'])->name('register.store');
 });
 
-Route::middleware('auth')->group(function (): void {
+Route::middleware('auth')->group(function (): void
+{
     Route::post('/logout', [AuthController::class, 'destroy'])->name('logout');
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -41,7 +48,8 @@ Route::middleware('auth')->group(function (): void {
     Route::get('/jobs/{jobOffer:slug}', [JobOfferController::class, 'show'])->name('jobs.show');
 });
 
-Route::middleware(['auth', 'role:candidate'])->group(function (): void {
+Route::middleware(['auth', 'role:candidate'])->group(function (): void
+{
     Route::get('/resumes', [ResumeController::class, 'index'])->name('resumes.index');
     Route::get('/resumes/create', [ResumeController::class, 'create'])->name('resumes.create');
     Route::post('/resumes', [ResumeController::class, 'store'])->name('resumes.store');
@@ -52,7 +60,8 @@ Route::middleware(['auth', 'role:candidate'])->group(function (): void {
 
     Route::get('/applications', [ApplicationController::class, 'index'])->name('applications.index');
 
-    Route::get('/jobs/{jobOffer:slug}/apply', function (JobOffer $jobOffer) {
+    Route::get('/jobs/{jobOffer:slug}/apply', function (JobOffer $jobOffer)
+    {
         return redirect()
             ->route('jobs.show', $jobOffer)
             ->with('status', 'Utilisez le formulaire de candidature pour envoyer votre dossier.');
@@ -62,7 +71,8 @@ Route::middleware(['auth', 'role:candidate'])->group(function (): void {
         ->name('jobs.apply');
 });
 
-Route::middleware(['auth', 'role:recruiter'])->group(function (): void {
+Route::middleware(['auth', 'role:recruiter'])->group(function (): void
+{
     Route::get('/recruiter/jobs', [JobOfferController::class, 'manage'])
         ->name('recruiter.jobs.index');
 

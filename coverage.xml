@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1780324145">
-  <project timestamp="1780324145" name="Clover Coverage">
+<coverage generated="1780325856">
+  <project timestamp="1780325856" name="Clover Coverage">
     <package name="App\Http\Controllers">
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\AiAssistantController.php">
         <class name="App\Http\Controllers\AiAssistantController" namespace="App\Http\Controllers">
-          <metrics complexity="17" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="84" coveredstatements="31" elements="87" coveredelements="31"/>
+          <metrics complexity="17" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="84" coveredstatements="64" elements="87" coveredelements="64"/>
         </class>
         <line num="14" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="16" type="stmt" count="0"/>
         <line num="17" type="stmt" count="0"/>
         <line num="18" type="stmt" count="0"/>
-        <line num="21" type="method" name="ask" visibility="public" complexity="8" crap="72" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
+        <line num="21" type="method" name="ask" visibility="public" complexity="8" crap="9.54" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
         <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="33" type="stmt" count="0"/>
-        <line num="34" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="43" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
         <line num="45" type="stmt" count="0"/>
-        <line num="49" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="1"/>
         <line num="51" type="stmt" count="0"/>
         <line num="53" type="stmt" count="0"/>
         <line num="55" type="stmt" count="0"/>
@@ -44,60 +44,60 @@
         <line num="64" type="stmt" count="0"/>
         <line num="65" type="stmt" count="0"/>
         <line num="66" type="stmt" count="0"/>
-        <line num="69" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
-        <line num="73" type="stmt" count="0"/>
-        <line num="74" type="stmt" count="0"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="80" type="stmt" count="0"/>
-        <line num="81" type="stmt" count="0"/>
-        <line num="82" type="stmt" count="0"/>
-        <line num="83" type="stmt" count="0"/>
-        <line num="86" type="method" name="askApi" visibility="public" complexity="8" crap="8.17" count="2"/>
-        <line num="88" type="stmt" count="2"/>
-        <line num="90" type="stmt" count="2"/>
-        <line num="91" type="stmt" count="2"/>
-        <line num="92" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="86" type="method" name="askApi" visibility="public" complexity="8" crap="8.09" count="4"/>
+        <line num="88" type="stmt" count="4"/>
+        <line num="90" type="stmt" count="4"/>
+        <line num="91" type="stmt" count="4"/>
+        <line num="92" type="stmt" count="4"/>
         <line num="93" type="stmt" count="1"/>
-        <line num="94" type="stmt" count="2"/>
-        <line num="95" type="stmt" count="2"/>
-        <line num="97" type="stmt" count="2"/>
-        <line num="98" type="stmt" count="2"/>
-        <line num="99" type="stmt" count="2"/>
-        <line num="100" type="stmt" count="2"/>
-        <line num="101" type="stmt" count="2"/>
-        <line num="102" type="stmt" count="2"/>
-        <line num="103" type="stmt" count="2"/>
-        <line num="104" type="stmt" count="2"/>
-        <line num="105" type="stmt" count="2"/>
-        <line num="106" type="stmt" count="2"/>
-        <line num="107" type="stmt" count="2"/>
-        <line num="108" type="stmt" count="2"/>
-        <line num="109" type="stmt" count="0"/>
-        <line num="113" type="stmt" count="2"/>
+        <line num="94" type="stmt" count="3"/>
+        <line num="95" type="stmt" count="4"/>
+        <line num="97" type="stmt" count="4"/>
+        <line num="98" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="3"/>
+        <line num="100" type="stmt" count="3"/>
+        <line num="101" type="stmt" count="3"/>
+        <line num="102" type="stmt" count="3"/>
+        <line num="103" type="stmt" count="3"/>
+        <line num="104" type="stmt" count="3"/>
+        <line num="105" type="stmt" count="3"/>
+        <line num="106" type="stmt" count="3"/>
+        <line num="107" type="stmt" count="3"/>
+        <line num="108" type="stmt" count="3"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="4"/>
         <line num="115" type="stmt" count="0"/>
         <line num="117" type="stmt" count="0"/>
         <line num="118" type="stmt" count="0"/>
         <line num="119" type="stmt" count="0"/>
-        <line num="122" type="stmt" count="2"/>
-        <line num="124" type="stmt" count="2"/>
-        <line num="125" type="stmt" count="2"/>
-        <line num="126" type="stmt" count="2"/>
-        <line num="127" type="stmt" count="2"/>
-        <line num="128" type="stmt" count="2"/>
-        <line num="129" type="stmt" count="2"/>
-        <line num="130" type="stmt" count="2"/>
-        <line num="133" type="stmt" count="2"/>
-        <line num="134" type="stmt" count="2"/>
-        <line num="135" type="stmt" count="2"/>
-        <metrics loc="138" ncloc="138" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="84" coveredstatements="31" elements="87" coveredelements="31"/>
+        <line num="122" type="stmt" count="4"/>
+        <line num="124" type="stmt" count="3"/>
+        <line num="125" type="stmt" count="3"/>
+        <line num="126" type="stmt" count="3"/>
+        <line num="127" type="stmt" count="3"/>
+        <line num="128" type="stmt" count="3"/>
+        <line num="129" type="stmt" count="3"/>
+        <line num="130" type="stmt" count="3"/>
+        <line num="133" type="stmt" count="4"/>
+        <line num="134" type="stmt" count="4"/>
+        <line num="135" type="stmt" count="4"/>
+        <metrics loc="138" ncloc="138" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="84" coveredstatements="64" elements="87" coveredelements="64"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\ApplicationController.php">
         <class name="App\Http\Controllers\ApplicationController" namespace="App\Http\Controllers">
-          <metrics complexity="8" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="19" elements="45" coveredelements="19"/>
+          <metrics complexity="8" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="34" elements="45" coveredelements="37"/>
         </class>
         <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="18" type="stmt" count="0"/>
@@ -107,85 +107,85 @@
         <line num="22" type="stmt" count="0"/>
         <line num="23" type="stmt" count="0"/>
         <line num="24" type="stmt" count="0"/>
-        <line num="27" type="method" name="store" visibility="public" complexity="4" crap="4" count="2"/>
-        <line num="29" type="stmt" count="2"/>
-        <line num="31" type="stmt" count="2"/>
-        <line num="32" type="stmt" count="2"/>
-        <line num="33" type="stmt" count="2"/>
-        <line num="34" type="stmt" count="2"/>
-        <line num="36" type="stmt" count="2"/>
+        <line num="27" type="method" name="store" visibility="public" complexity="4" crap="4" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
         <line num="38" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="2"/>
         <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="0"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="46" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="58" type="method" name="recruiterIndex" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="69" type="method" name="update" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <metrics loc="82" ncloc="82" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="34" elements="45" coveredelements="37"/>
+      </file>
+      <file name="C:\wamp64\smartLeave\app\Http\Controllers\AuthController.php">
+        <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
+          <metrics complexity="8" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="35" elements="52" coveredelements="38"/>
+        </class>
+        <line num="19" type="method" name="createLogin" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="24" type="method" name="storeLogin" visibility="public" complexity="2" crap="2.31" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="40" type="method" name="createRegister" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="45" type="method" name="storeRegister" visibility="public" complexity="3" crap="3.17" count="1"/>
         <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
         <line num="49" type="stmt" count="1"/>
         <line num="50" type="stmt" count="1"/>
         <line num="51" type="stmt" count="1"/>
         <line num="52" type="stmt" count="1"/>
         <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
         <line num="55" type="stmt" count="1"/>
-        <line num="58" type="method" name="recruiterIndex" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="60" type="stmt" count="0"/>
-        <line num="61" type="stmt" count="0"/>
-        <line num="62" type="stmt" count="0"/>
-        <line num="63" type="stmt" count="0"/>
-        <line num="64" type="stmt" count="0"/>
-        <line num="65" type="stmt" count="0"/>
-        <line num="66" type="stmt" count="0"/>
-        <line num="69" type="method" name="update" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="73" type="stmt" count="0"/>
-        <line num="74" type="stmt" count="0"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="79" type="stmt" count="0"/>
-        <metrics loc="82" ncloc="82" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="19" elements="45" coveredelements="19"/>
-      </file>
-      <file name="C:\wamp64\smartLeave\app\Http\Controllers\AuthController.php">
-        <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
-          <metrics complexity="8" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="0" elements="52" coveredelements="0"/>
-        </class>
-        <line num="19" type="method" name="createLogin" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <line num="24" type="method" name="storeLogin" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="40" type="method" name="createRegister" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="45" type="method" name="storeRegister" visibility="public" complexity="3" crap="12" count="0"/>
-        <line num="47" type="stmt" count="0"/>
-        <line num="49" type="stmt" count="0"/>
-        <line num="50" type="stmt" count="0"/>
-        <line num="51" type="stmt" count="0"/>
-        <line num="52" type="stmt" count="0"/>
-        <line num="53" type="stmt" count="0"/>
-        <line num="54" type="stmt" count="0"/>
-        <line num="55" type="stmt" count="0"/>
-        <line num="56" type="stmt" count="0"/>
-        <line num="57" type="stmt" count="0"/>
-        <line num="58" type="stmt" count="0"/>
-        <line num="59" type="stmt" count="0"/>
-        <line num="60" type="stmt" count="0"/>
-        <line num="61" type="stmt" count="0"/>
-        <line num="62" type="stmt" count="0"/>
-        <line num="63" type="stmt" count="0"/>
-        <line num="65" type="stmt" count="0"/>
-        <line num="67" type="stmt" count="0"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="69" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
         <line num="76" type="stmt" count="0"/>
         <line num="77" type="stmt" count="0"/>
         <line num="78" type="stmt" count="0"/>
@@ -195,14 +195,14 @@
         <line num="82" type="stmt" count="0"/>
         <line num="83" type="stmt" count="0"/>
         <line num="84" type="stmt" count="0"/>
-        <line num="87" type="stmt" count="0"/>
-        <line num="89" type="stmt" count="0"/>
-        <line num="92" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="94" type="stmt" count="0"/>
-        <line num="95" type="stmt" count="0"/>
-        <line num="96" type="stmt" count="0"/>
-        <line num="98" type="stmt" count="0"/>
-        <metrics loc="101" ncloc="101" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="0" elements="52" coveredelements="0"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="92" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <metrics loc="101" ncloc="101" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="35" elements="52" coveredelements="38"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\Controller.php">
         <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
@@ -212,59 +212,58 @@
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\DashboardController.php">
         <class name="App\Http\Controllers\DashboardController" namespace="App\Http\Controllers">
-          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="24" coveredelements="0"/>
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="24" coveredelements="24"/>
         </class>
-        <line num="13" type="method" name="index" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="15" type="stmt" count="0"/>
-        <line num="17" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <metrics loc="45" ncloc="45" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="24" coveredelements="0"/>
+        <line num="13" type="method" name="index" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <metrics loc="45" ncloc="45" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="24" coveredelements="24"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\JobOfferController.php">
         <class name="App\Http\Controllers\JobOfferController" namespace="App\Http\Controllers">
-          <metrics complexity="12" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="0" elements="76" coveredelements="0"/>
+          <metrics complexity="12" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="67" coveredstatements="57" elements="75" coveredelements="62"/>
         </class>
-        <line num="16" type="method" name="index" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
-        <line num="35" type="method" name="show" visibility="public" complexity="4" crap="20" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="43" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="45" type="stmt" count="0"/>
+        <line num="16" type="method" name="index" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="35" type="method" name="show" visibility="public" complexity="4" crap="4" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
         <line num="48" type="method" name="manage" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="50" type="stmt" count="0"/>
         <line num="52" type="stmt" count="0"/>
@@ -274,57 +273,57 @@
         <line num="59" type="stmt" count="0"/>
         <line num="60" type="stmt" count="0"/>
         <line num="61" type="stmt" count="0"/>
-        <line num="64" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="66" type="stmt" count="0"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="69" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
-        <line num="73" type="stmt" count="0"/>
-        <line num="74" type="stmt" count="0"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="78" type="stmt" count="0"/>
-        <line num="79" type="stmt" count="0"/>
-        <line num="80" type="stmt" count="0"/>
-        <line num="81" type="stmt" count="0"/>
-        <line num="82" type="stmt" count="0"/>
-        <line num="83" type="stmt" count="0"/>
-        <line num="84" type="stmt" count="0"/>
-        <line num="85" type="stmt" count="0"/>
-        <line num="87" type="stmt" count="0"/>
+        <line num="64" type="method" name="store" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
         <line num="90" type="method" name="edit" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="92" type="stmt" count="0"/>
         <line num="93" type="stmt" count="0"/>
         <line num="94" type="stmt" count="0"/>
-        <line num="97" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="99" type="stmt" count="0"/>
-        <line num="101" type="stmt" count="0"/>
-        <line num="102" type="stmt" count="0"/>
-        <line num="103" type="stmt" count="0"/>
-        <line num="104" type="stmt" count="0"/>
-        <line num="105" type="stmt" count="0"/>
-        <line num="106" type="stmt" count="0"/>
-        <line num="107" type="stmt" count="0"/>
-        <line num="108" type="stmt" count="0"/>
-        <line num="109" type="stmt" count="0"/>
-        <line num="110" type="stmt" count="0"/>
-        <line num="111" type="stmt" count="0"/>
-        <line num="112" type="stmt" count="0"/>
-        <line num="113" type="stmt" count="0"/>
-        <line num="114" type="stmt" count="0"/>
-        <line num="115" type="stmt" count="0"/>
-        <line num="117" type="stmt" count="0"/>
-        <line num="120" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="122" type="stmt" count="0"/>
-        <line num="124" type="stmt" count="0"/>
-        <metrics loc="127" ncloc="127" classes="1" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="0" elements="76" coveredelements="0"/>
+        <line num="97" type="method" name="update" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="104" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <line num="120" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="122" type="stmt" count="1"/>
+        <line num="124" type="stmt" count="1"/>
+        <metrics loc="127" ncloc="127" classes="1" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="67" coveredstatements="57" elements="75" coveredelements="62"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\ProfileController.php">
         <class name="App\Http\Controllers\ProfileController" namespace="App\Http\Controllers">
-          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="0" elements="54" coveredelements="0"/>
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="47" elements="54" coveredelements="48"/>
         </class>
         <line num="14" type="method" name="edit" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="16" type="stmt" count="0"/>
@@ -332,59 +331,59 @@
         <line num="19" type="stmt" count="0"/>
         <line num="20" type="stmt" count="0"/>
         <line num="21" type="stmt" count="0"/>
-        <line num="24" type="method" name="update" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
-        <line num="33" type="stmt" count="0"/>
-        <line num="34" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="45" type="stmt" count="0"/>
-        <line num="46" type="stmt" count="0"/>
-        <line num="47" type="stmt" count="0"/>
-        <line num="48" type="stmt" count="0"/>
-        <line num="49" type="stmt" count="0"/>
-        <line num="50" type="stmt" count="0"/>
-        <line num="51" type="stmt" count="0"/>
-        <line num="52" type="stmt" count="0"/>
-        <line num="53" type="stmt" count="0"/>
-        <line num="54" type="stmt" count="0"/>
-        <line num="58" type="stmt" count="0"/>
-        <line num="59" type="stmt" count="0"/>
-        <line num="60" type="stmt" count="0"/>
-        <line num="61" type="stmt" count="0"/>
-        <line num="62" type="stmt" count="0"/>
-        <line num="63" type="stmt" count="0"/>
-        <line num="64" type="stmt" count="0"/>
-        <line num="66" type="stmt" count="0"/>
-        <line num="67" type="stmt" count="0"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="69" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
-        <line num="73" type="stmt" count="0"/>
-        <line num="74" type="stmt" count="0"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="78" type="stmt" count="0"/>
-        <line num="79" type="stmt" count="0"/>
-        <line num="82" type="stmt" count="0"/>
-        <metrics loc="85" ncloc="85" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="0" elements="54" coveredelements="0"/>
+        <line num="24" type="method" name="update" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="2"/>
+        <metrics loc="85" ncloc="85" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="47" elements="54" coveredelements="48"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\ResumeController.php">
         <class name="App\Http\Controllers\ResumeController" namespace="App\Http\Controllers">
-          <metrics complexity="9" methods="9" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="12" elements="48" coveredelements="15"/>
+          <metrics complexity="9" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="30" elements="48" coveredelements="36"/>
         </class>
         <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="18" type="stmt" count="0"/>
@@ -402,39 +401,39 @@
         <line num="37" type="stmt" count="1"/>
         <line num="38" type="stmt" count="1"/>
         <line num="40" type="stmt" count="1"/>
-        <line num="43" type="method" name="edit" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="45" type="stmt" count="0"/>
+        <line num="43" type="method" name="edit" visibility="public" complexity="1" crap="1.42" count="1"/>
+        <line num="45" type="stmt" count="1"/>
         <line num="47" type="stmt" count="0"/>
         <line num="48" type="stmt" count="0"/>
         <line num="49" type="stmt" count="0"/>
-        <line num="52" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="54" type="stmt" count="0"/>
-        <line num="56" type="stmt" count="0"/>
-        <line num="58" type="stmt" count="0"/>
-        <line num="59" type="stmt" count="0"/>
-        <line num="60" type="stmt" count="0"/>
-        <line num="61" type="stmt" count="0"/>
-        <line num="63" type="stmt" count="0"/>
-        <line num="66" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
-        <line num="75" type="method" name="recruiterIndex" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="78" type="stmt" count="0"/>
-        <line num="79" type="stmt" count="0"/>
-        <line num="80" type="stmt" count="0"/>
-        <line num="81" type="stmt" count="0"/>
-        <line num="82" type="stmt" count="0"/>
-        <line num="83" type="stmt" count="0"/>
-        <line num="86" type="method" name="recruiterShow" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="88" type="stmt" count="1"/>
-        <line num="90" type="stmt" count="1"/>
-        <line num="91" type="stmt" count="1"/>
-        <line num="92" type="stmt" count="1"/>
-        <line num="95" type="method" name="parseSkills" visibility="private" complexity="1" crap="1" count="1"/>
-        <line num="97" type="stmt" count="1"/>
-        <metrics loc="100" ncloc="100" classes="1" methods="9" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="12" elements="48" coveredelements="15"/>
+        <line num="52" type="method" name="update" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="66" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="75" type="method" name="recruiterIndex" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="86" type="method" name="recruiterShow" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <line num="95" type="method" name="parseSkills" visibility="private" complexity="1" crap="1" count="2"/>
+        <line num="97" type="stmt" count="2"/>
+        <metrics loc="100" ncloc="100" classes="1" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="30" elements="48" coveredelements="36"/>
       </file>
     </package>
     <package name="App\Http\Middleware">
@@ -442,11 +441,11 @@
         <class name="App\Http\Middleware\EnsureUserRole" namespace="App\Http\Middleware">
           <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
         </class>
-        <line num="11" type="method" name="handle" visibility="public" complexity="4" crap="4.25" count="5"/>
-        <line num="13" type="stmt" count="5"/>
-        <line num="15" type="stmt" count="5"/>
+        <line num="11" type="method" name="handle" visibility="public" complexity="4" crap="4.25" count="12"/>
+        <line num="13" type="stmt" count="12"/>
+        <line num="15" type="stmt" count="12"/>
         <line num="17" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="5"/>
+        <line num="20" type="stmt" count="12"/>
         <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
       </file>
     </package>
@@ -455,67 +454,67 @@
         <class name="App\Http\Requests\Application\StoreApplicationRequest" namespace="App\Http\Requests\Application">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
         </class>
-        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="11" type="stmt" count="2"/>
-        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="17" type="stmt" count="2"/>
-        <line num="18" type="stmt" count="2"/>
-        <line num="19" type="stmt" count="2"/>
-        <line num="20" type="stmt" count="2"/>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="11" type="stmt" count="3"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="17" type="stmt" count="3"/>
+        <line num="18" type="stmt" count="3"/>
+        <line num="19" type="stmt" count="3"/>
+        <line num="20" type="stmt" count="3"/>
         <metrics loc="23" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Requests\Application\UpdateApplicationStatusRequest.php">
         <class name="App\Http\Requests\Application\UpdateApplicationStatusRequest" namespace="App\Http\Requests\Application">
-          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
         </class>
-        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="17" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
       </file>
     </package>
     <package name="App\Http\Requests\Auth">
       <file name="C:\wamp64\smartLeave\app\Http\Requests\Auth\StoreLoginRequest.php">
         <class name="App\Http\Requests\Auth\StoreLoginRequest" namespace="App\Http\Requests\Auth">
-          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
         </class>
-        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="17" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Requests\Auth\StoreRegisterRequest.php">
         <class name="App\Http\Requests\Auth\StoreRegisterRequest" namespace="App\Http\Requests\Auth">
-          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="18" coveredelements="0"/>
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
         </class>
-        <line num="10" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="12" type="stmt" count="0"/>
-        <line num="15" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="17" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <metrics loc="34" ncloc="34" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="18" coveredelements="0"/>
+        <line num="10" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <metrics loc="34" ncloc="34" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
       </file>
     </package>
     <package name="App\Http\Requests\Chatbot">
@@ -523,93 +522,26 @@
         <class name="App\Http\Requests\Chatbot\ChatbotRequest" namespace="App\Http\Requests\Chatbot">
           <metrics complexity="6" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="13" coveredelements="11"/>
         </class>
-        <line num="9" type="method" name="prepareForValidation" visibility="protected" complexity="4" crap="4.25" count="3"/>
-        <line num="11" type="stmt" count="3"/>
-        <line num="13" type="stmt" count="2"/>
-        <line num="16" type="stmt" count="3"/>
+        <line num="9" type="method" name="prepareForValidation" visibility="protected" complexity="4" crap="4.25" count="6"/>
+        <line num="11" type="stmt" count="6"/>
+        <line num="13" type="stmt" count="5"/>
+        <line num="16" type="stmt" count="6"/>
         <line num="18" type="stmt" count="0"/>
-        <line num="22" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="24" type="stmt" count="3"/>
-        <line num="27" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="29" type="stmt" count="3"/>
-        <line num="30" type="stmt" count="3"/>
-        <line num="31" type="stmt" count="3"/>
-        <line num="32" type="stmt" count="3"/>
-        <line num="33" type="stmt" count="3"/>
+        <line num="22" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="24" type="stmt" count="6"/>
+        <line num="27" type="method" name="rules" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="30" type="stmt" count="6"/>
+        <line num="31" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="33" type="stmt" count="6"/>
         <metrics loc="36" ncloc="36" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="13" coveredelements="11"/>
       </file>
     </package>
     <package name="App\Http\Requests\JobOffer">
       <file name="C:\wamp64\smartLeave\app\Http\Requests\JobOffer\StoreJobOfferRequest.php">
         <class name="App\Http\Requests\JobOffer\StoreJobOfferRequest" namespace="App\Http\Requests\JobOffer">
-          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="18" coveredelements="0"/>
-        </class>
-        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="17" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <metrics loc="33" ncloc="33" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="18" coveredelements="0"/>
-      </file>
-      <file name="C:\wamp64\smartLeave\app\Http\Requests\JobOffer\UpdateJobOfferRequest.php">
-        <class name="App\Http\Requests\JobOffer\UpdateJobOfferRequest" namespace="App\Http\Requests\JobOffer">
-          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-        </class>
-        <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </file>
-    </package>
-    <package name="App\Http\Requests\Profile">
-      <file name="C:\wamp64\smartLeave\app\Http\Requests\Profile\UpdateProfileRequest.php">
-        <class name="App\Http\Requests\Profile\UpdateProfileRequest" namespace="App\Http\Requests\Profile">
-          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="27" coveredelements="0"/>
-        </class>
-        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="14" type="method" name="rules" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="18" type="stmt" count="0"/>
-        <line num="19" type="stmt" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="0"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
-        <line num="33" type="stmt" count="0"/>
-        <line num="34" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <metrics loc="45" ncloc="45" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="27" coveredelements="0"/>
-      </file>
-    </package>
-    <package name="App\Http\Requests\Resume">
-      <file name="C:\wamp64\smartLeave\app\Http\Requests\Resume\StoreResumeRequest.php">
-        <class name="App\Http\Requests\Resume\StoreResumeRequest" namespace="App\Http\Requests\Resume">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
         </class>
         <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="11" type="stmt" count="1"/>
@@ -625,6 +557,73 @@
         <line num="24" type="stmt" count="1"/>
         <line num="25" type="stmt" count="1"/>
         <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+      </file>
+      <file name="C:\wamp64\smartLeave\app\Http\Requests\JobOffer\UpdateJobOfferRequest.php">
+        <class name="App\Http\Requests\JobOffer\UpdateJobOfferRequest" namespace="App\Http\Requests\JobOffer">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Requests\Profile">
+      <file name="C:\wamp64\smartLeave\app\Http\Requests\Profile\UpdateProfileRequest.php">
+        <class name="App\Http\Requests\Profile\UpdateProfileRequest" namespace="App\Http\Requests\Profile">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="27" coveredelements="27"/>
+        </class>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <metrics loc="45" ncloc="45" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="27" coveredelements="27"/>
+      </file>
+    </package>
+    <package name="App\Http\Requests\Resume">
+      <file name="C:\wamp64\smartLeave\app\Http\Requests\Resume\StoreResumeRequest.php">
+        <class name="App\Http\Requests\Resume\StoreResumeRequest" namespace="App\Http\Requests\Resume">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+        </class>
+        <line num="9" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="14" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
         <metrics loc="29" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Http\Requests\Resume\UpdateResumeRequest.php">
@@ -639,39 +638,39 @@
         <class name="App\Models\AiMessage" namespace="App\Models">
           <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
         </class>
-        <line num="17" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="2"/>
-        <line num="19" type="stmt" count="2"/>
-        <line num="20" type="stmt" count="2"/>
-        <line num="21" type="stmt" count="2"/>
+        <line num="17" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="19" type="stmt" count="4"/>
+        <line num="20" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="4"/>
         <line num="24" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="26" type="stmt" count="0"/>
         <metrics loc="29" ncloc="29" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Models\Application.php">
         <class name="App\Models\Application" namespace="App\Models">
-          <metrics complexity="4" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="11" coveredelements="5"/>
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
         </class>
-        <line num="21" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="2"/>
-        <line num="23" type="stmt" count="2"/>
-        <line num="24" type="stmt" count="2"/>
-        <line num="25" type="stmt" count="2"/>
-        <line num="26" type="stmt" count="2"/>
-        <line num="29" type="method" name="jobOffer" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="34" type="method" name="candidate" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="39" type="method" name="resume" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <metrics loc="44" ncloc="44" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="11" coveredelements="5"/>
+        <line num="21" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="7"/>
+        <line num="23" type="stmt" count="7"/>
+        <line num="24" type="stmt" count="7"/>
+        <line num="25" type="stmt" count="7"/>
+        <line num="26" type="stmt" count="7"/>
+        <line num="29" type="method" name="jobOffer" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="34" type="method" name="candidate" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="39" type="method" name="resume" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <metrics loc="44" ncloc="44" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Models\CandidateProfile.php">
         <class name="App\Models\CandidateProfile" namespace="App\Models">
           <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
         </class>
-        <line num="22" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="3"/>
-        <line num="24" type="stmt" count="3"/>
-        <line num="25" type="stmt" count="3"/>
-        <line num="26" type="stmt" count="3"/>
+        <line num="22" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="8"/>
+        <line num="24" type="stmt" count="8"/>
+        <line num="25" type="stmt" count="8"/>
+        <line num="26" type="stmt" count="8"/>
         <line num="29" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="31" type="stmt" count="0"/>
         <metrics loc="34" ncloc="34" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
@@ -686,38 +685,38 @@
       </file>
       <file name="C:\wamp64\smartLeave\app\Models\JobOffer.php">
         <class name="App\Models\JobOffer" namespace="App\Models">
-          <metrics complexity="9" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="10" elements="19" coveredelements="11"/>
+          <metrics complexity="9" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="19" coveredelements="19"/>
         </class>
-        <line num="31" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="3"/>
-        <line num="33" type="stmt" count="3"/>
-        <line num="34" type="stmt" count="3"/>
-        <line num="35" type="stmt" count="3"/>
-        <line num="36" type="stmt" count="3"/>
-        <line num="37" type="stmt" count="3"/>
-        <line num="40" type="method" name="booted" visibility="protected" complexity="5" crap="5.12" count="3"/>
-        <line num="42" type="stmt" count="3"/>
-        <line num="43" type="stmt" count="3"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="47" type="stmt" count="3"/>
-        <line num="48" type="stmt" count="3"/>
-        <line num="50" type="stmt" count="3"/>
-        <line num="53" type="method" name="recruiter" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="55" type="stmt" count="0"/>
-        <line num="58" type="method" name="companyProfile" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="60" type="stmt" count="0"/>
-        <line num="63" type="method" name="applications" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="65" type="stmt" count="0"/>
-        <metrics loc="68" ncloc="68" classes="1" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="10" elements="19" coveredelements="11"/>
+        <line num="31" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="10"/>
+        <line num="33" type="stmt" count="10"/>
+        <line num="34" type="stmt" count="10"/>
+        <line num="35" type="stmt" count="10"/>
+        <line num="36" type="stmt" count="10"/>
+        <line num="37" type="stmt" count="10"/>
+        <line num="40" type="method" name="booted" visibility="protected" complexity="5" crap="5" count="10"/>
+        <line num="42" type="stmt" count="10"/>
+        <line num="43" type="stmt" count="10"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="10"/>
+        <line num="48" type="stmt" count="10"/>
+        <line num="50" type="stmt" count="10"/>
+        <line num="53" type="method" name="recruiter" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="58" type="method" name="companyProfile" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="63" type="method" name="applications" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <metrics loc="68" ncloc="68" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="19" coveredelements="19"/>
       </file>
       <file name="C:\wamp64\smartLeave\app\Models\Resume.php">
         <class name="App\Models\Resume" namespace="App\Models">
           <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
         </class>
-        <line num="22" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="24" type="stmt" count="4"/>
-        <line num="25" type="stmt" count="4"/>
-        <line num="26" type="stmt" count="4"/>
-        <line num="27" type="stmt" count="4"/>
+        <line num="22" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="13"/>
+        <line num="24" type="stmt" count="13"/>
+        <line num="25" type="stmt" count="13"/>
+        <line num="26" type="stmt" count="13"/>
+        <line num="27" type="stmt" count="13"/>
         <line num="30" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="32" type="stmt" count="0"/>
         <metrics loc="35" ncloc="35" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
@@ -726,23 +725,23 @@
         <class name="App\Models\User" namespace="App\Models">
           <metrics complexity="7" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="8" elements="17" coveredelements="13"/>
         </class>
-        <line num="58" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="7"/>
-        <line num="60" type="stmt" count="7"/>
-        <line num="61" type="stmt" count="7"/>
-        <line num="62" type="stmt" count="7"/>
-        <line num="63" type="stmt" count="7"/>
-        <line num="66" type="method" name="candidateProfile" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="68" type="stmt" count="3"/>
-        <line num="71" type="method" name="companyProfile" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="73" type="stmt" count="2"/>
-        <line num="76" type="method" name="resumes" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="78" type="stmt" count="1"/>
+        <line num="58" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="24"/>
+        <line num="60" type="stmt" count="24"/>
+        <line num="61" type="stmt" count="24"/>
+        <line num="62" type="stmt" count="24"/>
+        <line num="63" type="stmt" count="24"/>
+        <line num="66" type="method" name="candidateProfile" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="68" type="stmt" count="6"/>
+        <line num="71" type="method" name="companyProfile" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="76" type="method" name="resumes" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="78" type="stmt" count="2"/>
         <line num="81" type="method" name="jobOffers" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="83" type="stmt" count="0"/>
         <line num="86" type="method" name="applications" visibility="public" complexity="1" crap="2" count="0"/>
         <line num="88" type="stmt" count="0"/>
-        <line num="91" type="method" name="aiMessages" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="93" type="stmt" count="2"/>
+        <line num="91" type="method" name="aiMessages" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="93" type="stmt" count="4"/>
         <metrics loc="96" ncloc="79" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="8" elements="17" coveredelements="13"/>
       </file>
     </package>
@@ -751,77 +750,77 @@
         <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
         </class>
-        <line num="13" type="method" name="register" visibility="public" complexity="1" crap="1" count="11"/>
-        <line num="16" type="stmt" count="11"/>
-        <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="11"/>
-        <line num="23" type="stmt" count="11"/>
+        <line num="13" type="method" name="register" visibility="public" complexity="1" crap="1" count="34"/>
+        <line num="16" type="stmt" count="34"/>
+        <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="34"/>
+        <line num="23" type="stmt" count="34"/>
         <metrics loc="26" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </file>
     </package>
     <package name="App\Services">
       <file name="C:\wamp64\smartLeave\app\Services\GeminiService.php">
         <class name="App\Services\GeminiService" namespace="App\Services">
-          <metrics complexity="14" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="50" elements="56" coveredelements="50"/>
+          <metrics complexity="14" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="53" elements="56" coveredelements="56"/>
         </class>
-        <line num="10" type="method" name="buildPayload" visibility="public" complexity="3" crap="3" count="2"/>
-        <line num="12" type="stmt" count="2"/>
-        <line num="13" type="stmt" count="0"/>
-        <line num="14" type="stmt" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="18" type="stmt" count="2"/>
-        <line num="19" type="stmt" count="2"/>
-        <line num="20" type="stmt" count="2"/>
-        <line num="21" type="stmt" count="2"/>
-        <line num="22" type="stmt" count="2"/>
-        <line num="23" type="stmt" count="2"/>
-        <line num="25" type="stmt" count="2"/>
+        <line num="10" type="method" name="buildPayload" visibility="public" complexity="3" crap="3" count="5"/>
+        <line num="12" type="stmt" count="5"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="14" type="stmt" count="4"/>
+        <line num="16" type="stmt" count="5"/>
+        <line num="18" type="stmt" count="5"/>
+        <line num="19" type="stmt" count="5"/>
+        <line num="20" type="stmt" count="5"/>
+        <line num="21" type="stmt" count="5"/>
+        <line num="22" type="stmt" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
         <line num="27" type="stmt" count="1"/>
         <line num="28" type="stmt" count="1"/>
         <line num="29" type="stmt" count="1"/>
         <line num="30" type="stmt" count="1"/>
         <line num="31" type="stmt" count="1"/>
         <line num="32" type="stmt" count="1"/>
-        <line num="35" type="stmt" count="2"/>
-        <line num="36" type="stmt" count="2"/>
-        <line num="37" type="stmt" count="2"/>
-        <line num="38" type="stmt" count="2"/>
-        <line num="39" type="stmt" count="2"/>
-        <line num="40" type="stmt" count="2"/>
-        <line num="42" type="stmt" count="2"/>
-        <line num="43" type="stmt" count="2"/>
-        <line num="44" type="stmt" count="2"/>
-        <line num="47" type="method" name="generate" visibility="public" complexity="5" crap="5.01" count="2"/>
-        <line num="49" type="stmt" count="2"/>
-        <line num="50" type="stmt" count="2"/>
-        <line num="54" type="stmt" count="2"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="63" type="stmt" count="1"/>
-        <line num="64" type="stmt" count="1"/>
-        <line num="66" type="stmt" count="1"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="73" type="stmt" count="1"/>
-        <line num="75" type="stmt" count="1"/>
-        <line num="78" type="stmt" count="1"/>
-        <line num="83" type="stmt" count="1"/>
-        <line num="86" type="method" name="fallbackResponse" visibility="private" complexity="6" crap="6.03" count="1"/>
-        <line num="88" type="stmt" count="1"/>
-        <line num="89" type="stmt" count="1"/>
-        <line num="90" type="stmt" count="1"/>
-        <line num="91" type="stmt" count="1"/>
-        <line num="93" type="stmt" count="1"/>
-        <line num="95" type="stmt" count="1"/>
-        <line num="97" type="stmt" count="1"/>
-        <line num="99" type="stmt" count="1"/>
-        <line num="101" type="stmt" count="0"/>
-        <line num="106" type="stmt" count="1"/>
-        <line num="108" type="stmt" count="1"/>
-        <metrics loc="111" ncloc="110" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="50" elements="56" coveredelements="50"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="38" type="stmt" count="5"/>
+        <line num="39" type="stmt" count="5"/>
+        <line num="40" type="stmt" count="5"/>
+        <line num="42" type="stmt" count="5"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="44" type="stmt" count="5"/>
+        <line num="47" type="method" name="generate" visibility="public" complexity="5" crap="5" count="5"/>
+        <line num="49" type="stmt" count="5"/>
+        <line num="50" type="stmt" count="5"/>
+        <line num="54" type="stmt" count="5"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="61" type="stmt" count="3"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="66" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="78" type="stmt" count="3"/>
+        <line num="83" type="stmt" count="3"/>
+        <line num="86" type="method" name="fallbackResponse" visibility="private" complexity="6" crap="6" count="3"/>
+        <line num="88" type="stmt" count="3"/>
+        <line num="89" type="stmt" count="3"/>
+        <line num="90" type="stmt" count="3"/>
+        <line num="91" type="stmt" count="3"/>
+        <line num="93" type="stmt" count="3"/>
+        <line num="95" type="stmt" count="3"/>
+        <line num="97" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="3"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="3"/>
+        <line num="108" type="stmt" count="3"/>
+        <metrics loc="111" ncloc="110" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="53" elements="56" coveredelements="56"/>
       </file>
     </package>
-    <metrics files="28" loc="1439" ncloc="1413" classes="25" methods="78" coveredmethods="21" conditionals="0" coveredconditionals="0" statements="553" coveredstatements="176" elements="631" coveredelements="197"/>
+    <metrics files="28" loc="1439" ncloc="1413" classes="25" methods="78" coveredmethods="57" conditionals="0" coveredconditionals="0" statements="552" coveredstatements="481" elements="630" coveredelements="538"/>
   </project>
 </coverage>
