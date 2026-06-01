@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1780333044">
-  <project timestamp="1780333044" name="Clover Coverage">
+<coverage generated="1780355797">
+  <project timestamp="1780355797" name="Clover Coverage">
+    <package name="App\Exceptions">
+      <file name="C:\wamp64\smartLeave\app\Exceptions\GeminiRequestException.php">
+        <class name="App\Exceptions\GeminiRequestException" namespace="App\Exceptions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="11" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
     <package name="App\Http\Controllers">
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\AiAssistantController.php">
         <class name="App\Http\Controllers\AiAssistantController" namespace="App\Http\Controllers">
@@ -821,6 +829,6 @@
         <metrics loc="111" ncloc="110" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="53" elements="56" coveredelements="56"/>
       </file>
     </package>
-    <metrics files="28" loc="1439" ncloc="1413" classes="25" methods="78" coveredmethods="77" conditionals="0" coveredconditionals="0" statements="552" coveredstatements="551" elements="630" coveredelements="628"/>
+    <metrics files="29" loc="1450" ncloc="1423" classes="25" methods="78" coveredmethods="77" conditionals="0" coveredconditionals="0" statements="552" coveredstatements="551" elements="630" coveredelements="628"/>
   </project>
 </coverage>

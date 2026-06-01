@@ -15,9 +15,7 @@ class JobOfferController extends Controller
 {
     public function index(Request $request): View
     {
-        $query = JobOffer::query()
-            ->with(['recruiter', 'companyProfile'])
-            ->where('status', 'published');
+        $query = JobOffer::query()->with(['recruiter', 'companyProfile'])->where('status', 'published');
 
         if ($search = $request->string('search')->trim()->toString())
         {
@@ -39,17 +37,8 @@ class JobOfferController extends Controller
         $user = $request->user();
 
         return view('jobs.show', [
-            'job' => $jobOffer->load([
-                'recruiter',
-                'companyProfile',
-                'applications.candidate',
-            ]),
-            'resumes' => $user
-                ? Resume::query()
-                ->where('user_id', $user->id)
-                ->latest()
-                ->get()
-                : collect(),
+            'job' => $jobOffer->load(['recruiter', 'companyProfile', 'applications.candidate']),
+            'resumes' => $user ? Resume::query()->where('user_id', $user->id)->latest()->get() : collect(),
             'existingApplication' => $user && $user->role === 'candidate'
                 ? $jobOffer->applications->firstWhere('candidate_id', $user->id)
                 : null,
@@ -58,10 +47,7 @@ class JobOfferController extends Controller
 
     public function manage(Request $request): View
     {
-        $jobs = JobOffer::query()
-            ->where('recruiter_id', $request->user()->id)
-            ->latest()
-            ->paginate(10);
+        $jobs = JobOffer::query()->where('recruiter_id', $request->user()->id)->latest()->paginate(10);
 
         return view('recruiter.jobs.index', [
             'jobs' => $jobs,
@@ -77,17 +63,28 @@ class JobOfferController extends Controller
 
     public function store(StoreJobOfferRequest $request): RedirectResponse
     {
-        JobOffer::create(
-            $this->buildJobOfferData(
-                $request->validated(),
-                $request,
-                true
-            )
-        );
+        $data = $request->validated();
 
-        return redirect()
-            ->route('recruiter.jobs.index')
-            ->with('status', 'Offre publiée.');
+        JobOffer::create([
+            'recruiter_id' => $request->user()->id,
+            'company_profile_id' => $request->user()->companyProfile?->id,
+            'title' => $data['title'],
+            'slug' => Str::slug($data['title']) . '-' . Str::random(6),
+            'location' => $data['location'] ?? null,
+            'contract_type' => $data['contract_type'] ?? null,
+            'work_mode' => $data['work_mode'] ?? null,
+            'salary_min' => $data['salary_min'] ?? null,
+            'salary_max' => $data['salary_max'] ?? null,
+            'currency' => $data['currency'] ?? 'EUR',
+            'description' => $data['description'],
+            'responsibilities' => $data['responsibilities'] ?? null,
+            'requirements' => $data['requirements'] ?? null,
+            'skills' => array_values(array_filter(array_map('trim', explode(',', $data['skills'] ?? '')))),
+            'status' => $data['status'],
+            'expires_at' => $data['expires_at'] ?? null,
+        ]);
+
+        return redirect()->route('recruiter.jobs.index')->with('status', 'Offre publiée.');
     }
 
     public function edit(JobOffer $jobOffer): View
@@ -97,37 +94,11 @@ class JobOfferController extends Controller
         ]);
     }
 
-    public function update(
-        UpdateJobOfferRequest $request,
-        JobOffer $jobOffer
-    ): RedirectResponse
+    public function update(UpdateJobOfferRequest $request, JobOffer $jobOffer): RedirectResponse
     {
-        $jobOffer->update(
-            $this->buildJobOfferData(
-                $request->validated(),
-                $request
-            )
-        );
+        $data = $request->validated();
 
-        return redirect()
-            ->route('recruiter.jobs.index')
-            ->with('status', 'Offre mise à jour.');
-    }
-
-    public function destroy(JobOffer $jobOffer): RedirectResponse
-    {
-        $jobOffer->delete();
-
-        return back()->with('status', 'Offre supprimée.');
-    }
-
-    private function buildJobOfferData(
-        array $data,
-        Request $request,
-        bool $isCreate = false
-    ): array
-    {
-        $payload = [
+        $jobOffer->update([
             'title' => $data['title'],
             'location' => $data['location'] ?? null,
             'contract_type' => $data['contract_type'] ?? null,
@@ -138,30 +109,18 @@ class JobOfferController extends Controller
             'description' => $data['description'],
             'responsibilities' => $data['responsibilities'] ?? null,
             'requirements' => $data['requirements'] ?? null,
-            'skills' => $this->formatSkills($data['skills'] ?? ''),
+            'skills' => array_values(array_filter(array_map('trim', explode(',', $data['skills'] ?? '')))),
             'status' => $data['status'],
             'expires_at' => $data['expires_at'] ?? null,
-        ];
+        ]);
 
-        if ($isCreate)
-        {
-            $payload['recruiter_id'] = $request->user()->id;
-            $payload['company_profile_id'] = $request->user()->companyProfile?->id;
-            $payload['slug'] = Str::slug($data['title']) . '-' . Str::random(6);
-        }
-
-        return $payload;
+        return redirect()->route('recruiter.jobs.index')->with('status', 'Offre mise à jour.');
     }
 
-    private function formatSkills(string $skills): array
+    public function destroy(JobOffer $jobOffer): RedirectResponse
     {
-        return array_values(
-            array_filter(
-                array_map(
-                    'trim',
-                    explode(',', $skills)
-                )
-            )
-        );
+        $jobOffer->delete();
+
+        return back()->with('status', 'Offre supprimée.');
     }
 }
