@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1780327715">
-  <project timestamp="1780327715" name="Clover Coverage">
+<coverage generated="1780332314">
+  <project timestamp="1780332314" name="Clover Coverage">
     <package name="App\Http\Controllers">
       <file name="C:\wamp64\smartLeave\app\Http\Controllers\AiAssistantController.php">
         <class name="App\Http\Controllers\AiAssistantController" namespace="App\Http\Controllers">
@@ -750,10 +750,10 @@
         <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
         </class>
-        <line num="13" type="method" name="register" visibility="public" complexity="1" crap="1" count="65"/>
-        <line num="16" type="stmt" count="65"/>
-        <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="65"/>
-        <line num="23" type="stmt" count="65"/>
+        <line num="13" type="method" name="register" visibility="public" complexity="1" crap="1" count="66"/>
+        <line num="16" type="stmt" count="66"/>
+        <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="66"/>
+        <line num="23" type="stmt" count="66"/>
         <metrics loc="26" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </file>
     </package>
