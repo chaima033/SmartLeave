@@ -1,7 +1,7 @@
 organization=chaima033
 projectKey=chaima033_SmartLeave
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.88922
+serverVersion=8.0.0.88970
 dashboardUrl=https://sonarcloud.io/dashboard?id=chaima033_SmartLeave
-ceTaskId=AZ6Dz2NMInNTaCRtHsne
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ6Dz2NMInNTaCRtHsne
+ceTaskId=AZ6EIAHUrscTkm8DkdR_
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ6EIAHUrscTkm8DkdR_
