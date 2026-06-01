@@ -93,7 +93,8 @@ storelogin/app\http\controllers\authcontroller::storeloginC
 rules/app\http\requests\chatbot\chatbotrequest::rulesä
 <app\http\requests\application\updateapplicationstatusrequest&illuminate\foundation\http\formrequestT
 	authorizeGapp\http\requests\application\updateapplicationstatusrequest::authorizeL
-rulesCapp\http\requests\application\updateapplicationstatusrequest::rulesZ
+rulesCapp\http\requests\application\updateapplicationstatusrequest::rules2
+%app\exceptions\geminirequestexception	exceptionZ
 "app\http\middleware\ensureuserrole4
 handle*app\http\middleware\ensureuserrole::handle[
 ,app\http\requests\resume\updateresumerequest+app\http\requests\resume\storeresumerequest‡
