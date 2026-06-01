@@ -73,4 +73,22 @@ class JobOfferControllerTest extends TestCase
         $index->assertOk();
         $show->assertOk();
     }
+
+    public function test_recruiter_can_view_job_create_manage_and_edit_pages(): void
+    {
+        $recruiter = User::factory()->create(['role' => 'recruiter']);
+
+        $job = JobOffer::create([
+            'recruiter_id' => $recruiter->id,
+            'title' => 'Poste editer',
+            'slug' => 'poste-editer',
+            'description' => 'Test edition',
+            'status' => 'published',
+            'skills' => ['PHP'],
+        ]);
+
+        $this->actingAs($recruiter)->get(route('recruiter.jobs.create'))->assertOk();
+        $this->actingAs($recruiter)->get(route('recruiter.jobs.index'))->assertOk();
+        $this->actingAs($recruiter)->get(route('recruiter.jobs.edit', $job))->assertOk();
+    }
 }

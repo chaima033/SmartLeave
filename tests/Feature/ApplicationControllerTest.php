@@ -108,4 +108,38 @@ class ApplicationControllerTest extends TestCase
             'recruiter_feedback' => 'Bonne candidature',
         ]);
     }
+
+    public function test_candidate_can_view_application_index(): void
+    {
+        $candidate = User::factory()->create(['role' => 'candidate']);
+        $recruiter = User::factory()->create(['role' => 'recruiter']);
+
+        $job = JobOffer::create([
+            'recruiter_id' => $recruiter->id,
+            'title' => 'Opportunite',
+            'slug' => 'opportunite',
+            'description' => 'Test',
+            'status' => 'published',
+            'skills' => ['PHP'],
+        ]);
+
+        $resume = Resume::create([
+            'user_id' => $candidate->id,
+            'title' => 'CV pour appli',
+            'skills' => ['PHP'],
+            'is_primary' => true,
+        ]);
+
+        Application::create([
+            'job_offer_id' => $job->id,
+            'candidate_id' => $candidate->id,
+            'resume_id' => $resume->id,
+            'status' => 'submitted',
+        ]);
+
+        $response = $this->actingAs($candidate)->get(route('applications.index'));
+
+        $response->assertOk();
+        $response->assertViewHas('applications');
+    }
 }

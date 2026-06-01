@@ -66,4 +66,15 @@ class ProfileWorkflowTest extends TestCase
             'industry' => 'Tech',
         ]);
     }
+
+    public function test_user_can_view_profile_edit_form(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        $response = $this->actingAs($user)->get(route('profile.edit'));
+
+        $response->assertOk();
+        $response->assertViewHas('candidateProfile');
+        $response->assertViewHas('companyProfile');
+    }
 }

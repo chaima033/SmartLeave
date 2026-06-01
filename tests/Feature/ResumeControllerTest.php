@@ -55,6 +55,23 @@ class ResumeControllerTest extends TestCase
         $response->assertStatus(403);
     }
 
+    public function test_candidate_can_edit_own_resume(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        $resume = Resume::create([
+            'user_id' => $user->id,
+            'title' => 'CV à éditer',
+            'skills' => ['PHP'],
+            'is_primary' => false,
+        ]);
+
+        $response = $this->actingAs($user)->get(route('resumes.edit', $resume));
+
+        $response->assertOk();
+        $response->assertViewHas('resume', $resume);
+    }
+
     public function test_candidate_can_delete_resume(): void
     {
         $user = User::factory()->create(['role' => 'candidate']);
@@ -89,5 +106,79 @@ class ResumeControllerTest extends TestCase
 
         $index->assertOk();
         $show->assertOk();
+    }
+
+    public function test_candidate_can_view_resume_index(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        Resume::create([
+            'user_id' => $user->id,
+            'title' => 'CV pour index',
+            'skills' => ['PHP'],
+            'is_primary' => true,
+        ]);
+
+        $response = $this->actingAs($user)->get(route('resumes.index'));
+
+        $response->assertOk();
+        $response->assertViewHas('resumes');
+    }
+
+    public function test_candidate_can_view_resume_create_form(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        $response = $this->actingAs($user)->get(route('resumes.create'));
+
+        $response->assertOk();
+    }
+
+    public function test_candidate_can_store_resume(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        $response = $this->actingAs($user)->post(route('resumes.store'), [
+            'title' => 'Nouveau CV',
+            'summary' => 'Resume creation',
+            'skills' => 'PHP, Laravel',
+            'is_primary' => 1,
+        ]);
+
+        $response->assertRedirect(route('resumes.index'));
+        $this->assertDatabaseHas('resumes', [
+            'user_id' => $user->id,
+            'title' => 'Nouveau CV',
+            'is_primary' => 1,
+        ]);
+    }
+
+    public function test_candidate_can_store_resume_without_skills(): void
+    {
+        $user = User::factory()->create(['role' => 'candidate']);
+
+        $response = $this->actingAs($user)->post(route('resumes.store'), [
+            'title' => 'CV sans skills',
+            'summary' => 'Sans competences listées',
+            'is_primary' => 0,
+        ]);
+
+        $response->assertRedirect(route('resumes.index'));
+        $this->assertDatabaseHas('resumes', [
+            'user_id' => $user->id,
+            'title' => 'CV sans skills',
+            'is_primary' => 0,
+        ]);
+    }
+
+    public function test_parse_skills_private_method_splits_csv_string(): void
+    {
+        $controller = app(\App\Http\Controllers\ResumeController::class);
+        $method = new \ReflectionMethod($controller, 'parseSkills');
+        $method->setAccessible(true);
+
+        $result = $method->invoke($controller, 'PHP, Laravel,  Vue  ,');
+
+        $this->assertSame(['PHP', 'Laravel', 'Vue'], $result);
     }
 }

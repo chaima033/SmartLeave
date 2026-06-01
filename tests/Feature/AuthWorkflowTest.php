@@ -48,4 +48,38 @@ class AuthWorkflowTest extends TestCase
         $logout = $this->actingAs($user)->post(route('logout'));
         $logout->assertRedirect(route('login'));
     }
+
+    public function test_user_cannot_login_with_invalid_credentials(): void
+    {
+        User::factory()->create([
+            'email' => 'login@example.com',
+            'password' => bcrypt('secret123'),
+        ]);
+
+        $response = $this->post(route('login.store'), [
+            'email' => 'login@example.com',
+            'password' => 'wrongpassword',
+        ]);
+
+        $response->assertSessionHasErrors(['email']);
+    }
+
+    public function test_user_can_register_as_recruiter_and_company_profile_is_created(): void
+    {
+        $response = $this->post(route('register.store'), [
+            'name' => 'Test Recruteur',
+            'email' => 'recruiter@example.com',
+            'password' => 'secret123',
+            'password_confirmation' => 'secret123',
+            'role' => 'recruiter',
+            'company_name' => 'Test Company',
+            'company_industry' => 'Tech',
+            'company_website' => 'https://example.com',
+            'location' => 'Paris',
+        ]);
+
+        $response->assertRedirect(route('dashboard'));
+        $this->assertDatabaseHas('users', ['email' => 'recruiter@example.com', 'role' => 'recruiter']);
+        $this->assertDatabaseHas('company_profiles', ['user_id' => 1, 'company_name' => 'Test Company']);
+    }
 }
